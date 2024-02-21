@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .hero{
+    display: flex;
+    height: 100vh;
+    background-image: url(../Blogs/blog.jpg);
+    height: 40rem;
+    background-size: cover  ;
+    box-shadow: inset 0 0 0 2000px rgba( 0, 0, 0, 0.5) ;
+  }
+  .content{
+    /* border: 1px black solid; */
+    display: flex;
+    flex-direction:column;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content h1{
+    font-size: 56px;
+    font-weight: bolder;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem ;
+    
+    padding-top: 400px
+  }
+  
+  .content em{
+    font-size: 22px;
+    margin:  15px 0px;
+    margin-top: 0rem;
+    margin-bottom:  0.5rem;
+    margin-left: 1rem ;
+    
+    /* padding-top: 400px */
+    /* margin-bottom: 17rem; */
+    max-width: 500;
+    align-items: center;
+    /* letter-spacing: 2px; */
+  }
+  .content a{
+    color: inherit;
+    text-decoration: none;
+    background-color: rgb(103, 144, 216);
+    padding: 12px 24px;
+    font-size : 22px;
+    border-radius: 10px;
+    margin-bottom: 17rem;
+  }
+.curve{
+    left: 0;
+    position: absolute;
+    right: 0;
+    color: #ffffff!important;
+  }
+.curve svg{
+    
+        transform: scale(2);
+        transform-origin: top-center;
+    
+}
+.container{
+    margin: 0 auto;
+    
+}
+.container h1 p{
+    margin-top:3px;
+    margin-bottom: 10px;
+    font-weight: 900px;
+}
